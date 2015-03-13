@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'byebug-color-printer'
+
+require 'irb'
+IRB.start
