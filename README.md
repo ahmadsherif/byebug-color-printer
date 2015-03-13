@@ -1,12 +1,10 @@
-# Byebug::Color::Printer
+# Byebug-Color-Printer
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/byebug/color/printer`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Colorizes some of Byebug output for ease of readability. Right now, only the backtrace is colorized, but there's room for other stuff to be colorized.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add this line to your application's Gemfile then you're all set:
 
 ```ruby
 gem 'byebug-color-printer'
@@ -19,10 +17,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install byebug-color-printer
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Development
 
